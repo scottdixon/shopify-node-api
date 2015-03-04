@@ -189,7 +189,7 @@ From the [shopify docs](http://docs.shopify.com/api/tutorials/oauth):
 
 "All requests/redirects from Shopify include a signature parameter that can be used to verify the origin of the request."
 
-The module utilizes the *is_valid_signature* function to very that requests coming from shopify are authentic. You can use this method in your code to verify requests from Shopify. Here is an example of its use in the this module:
+The module utilizes the *is_valid_signature* function to verify that requests coming from shopify are authentic. You can use this method in your code to verify requests from Shopify. Here is an example of its use in the this module:
 
 ~~~
 ShopifyAPI.prototype.exchange_temporary_token = function(query_params, callback) {
